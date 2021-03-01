@@ -1,0 +1,26 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "Second HW Assignement of HTTP API HW",
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./src/server.js",
+    "pretest":"eslint ./src --fix",
+    "test": "echo \"Test Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sundredshadow/http-api-assignment-ii.git"
+  },
+  "author": "Ethan Shea",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Sundredshadow/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/Sundredshadow/http-api-assignment-ii#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
